@@ -1,0 +1,27 @@
+{
+    "name": "mannydmorales/system",
+    "description": "PHP library for the host system.",
+    "type": "library",
+    "keywords": ["system","os","operating system","process"],
+    "homepage": "https://opensource.mannydmorales.com/system",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manny Morales",
+            "email": "mannydmorales@gmail.com",
+            "homepage": "https://opensource.mannydmorales.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "mannydmorales\\System\\": "src/"
+        }
+    }
+}
